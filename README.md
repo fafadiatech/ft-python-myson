@@ -25,20 +25,25 @@ Myson uses following libraries
 
 # Installation
 
-1. Clone the repository `$ git clone git@bitbucket.org:fafadiatech/myson.git`
-1. Create virtualenv
-  - `mkvirtualenv myson`
-  - `workon myson`
-1. Install required dependencies and start the server
+1. Clone the repository 
+  ```ssh
+  git clone git@bitbucket.org:fafadiatech/myson.git
+  ```
+2. Create virtualenv
+  ```ssh
+  mkvirtualenv myson
+  workon myson
+  ```
+3. Install required dependencies and start the server
   - Create [telegram bot](https://core.telegram.org/bots), You want to check #6 
   - Create [telegram app id](https://core.telegram.org/api/obtaining_api_id)
   - Update `settings.py`
-  ```sh
-  $ cd myson
-  $ pip install -r requirements.txt
-  $ python notify.py
-  $ python bot.py
-  ```
+    ```sh
+    cd myson
+    pip install -r requirements.txt
+    python notify.py
+    python bot.py
+    ```
 
 # Development
 
