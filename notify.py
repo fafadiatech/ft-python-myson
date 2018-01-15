@@ -1,4 +1,7 @@
-# flask api to send notifications and send group messages
+"""
+this is flask api to send notifications and send group messages
+"""
+
 from io import BytesIO
 from models import User, Group
 from flask import Flask, request, jsonify

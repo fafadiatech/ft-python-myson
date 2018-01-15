@@ -1,5 +1,10 @@
-# file to create telegram groups and add group members
-import os
+"""
+grops module is used for 
+
+1. create telegram groups 
+2. add group members
+"""
+
 from telethon import TelegramClient
 from telethon.tl.types import InputUser
 from settings import API_ID, API_HASH, PHONE, SESSION_NAME

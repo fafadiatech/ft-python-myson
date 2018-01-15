@@ -13,16 +13,6 @@ Myson is Telegram bot, to helps teams to get notifications and execute various s
 1. Group Management: Create telegram groups or add member to existing group
 1. Linux Shell: Access linux server from telegram personal chat window (Interactive commands are not implemented for example `top` command)
 
-# Dependencies
-
-Myson uses following libraries 
-
-* [Telegram python bot](https://github.com/python-telegram-bot/python-telegram-bot) - Pythonic interface to Telegram Bot API
-* [Telethon](https://github.com/LonamiWebs/Telethon) - Telethon is Telegram client implementation in Python 3
-* [Flask](http://flask.pocoo.org/) - Flask is a microframework for Python
-* [Paramiko](http://www.paramiko.org/) - Paramiko is a Python implementation of the SSHv2 protocol
-
-
 # Installation
 
 1. Clone the repository 
@@ -35,15 +25,24 @@ Myson uses following libraries
   workon myson
   ```
 3. Install required dependencies and start the server
-  - Create [telegram bot](https://core.telegram.org/bots), You want to check #6 
+  - Create [telegram bot](https://core.telegram.org/bots), {You want to check #6 specifically}
   - Create [telegram app id](https://core.telegram.org/api/obtaining_api_id)
-  - Update `settings.py`
+  - Update ***settings.py***
     ```sh
     cd myson
     pip install -r requirements.txt
     python notify.py
     python bot.py
     ```
+
+# Dependencies
+
+Myson uses following libraries
+
+* [Telegram python bot](https://github.com/python-telegram-bot/python-telegram-bot) - Pythonic interface to Telegram Bot API
+* [Telethon](https://github.com/LonamiWebs/Telethon) - Telethon is Telegram client implementation in Python 3
+* [Flask](http://flask.pocoo.org/) - Flask is a microframework for Python
+* [Paramiko](http://www.paramiko.org/) - Paramiko is a Python implementation of the SSHv2 protocol
 
 # Development
 

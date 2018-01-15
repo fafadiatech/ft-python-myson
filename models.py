@@ -1,6 +1,10 @@
-# mongodb models file create models to be used in application
-from pymongo import MongoClient
+"""
+models file create models to be used in application,
+we use mongodb for persistance layer
+"""
+
 from functools import wraps
+from pymongo import MongoClient
 from bson.objectid import ObjectId
 
 
