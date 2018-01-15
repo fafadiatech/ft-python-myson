@@ -31,7 +31,7 @@ Myson is Telegram bot, to helps teams to get notifications and execute various s
     ```sh
     cd myson
     pip install -r requirements.txt
-    python notify.py
+    python api.py
     python bot.py
     ```
 
