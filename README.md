@@ -34,7 +34,7 @@ $ mkvirtualenv myson
 $ workon myson
 ```
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies and start the server.
 
 * create telegram bot (https://core.telegram.org/bots check point number 6)
 * create telegram app id (https://core.telegram.org/api/obtaining_api_id)
