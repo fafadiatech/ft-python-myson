@@ -1,5 +1,8 @@
-# bot.py contains bot related classes and functions to send messages and
-# activate ssh sessions
+"""
+bot.py contains bot related classes and functions to send messages and
+activate ssh sessions
+"""
+
 import paramiko
 import textwrap
 from telegram import Bot
